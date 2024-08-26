@@ -4,7 +4,8 @@
     https://fonts.google.com/
     
   ----------------------------------------------------------------------- */
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300);
+  @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pacifico&display=swap');
+
 
   /* --------------------------------------------------------------------
   
@@ -13,11 +14,12 @@
   
   ---------------------------------------------------------------------- */
   :root {
-      --color-lightest: #ffcdcd;
-      --color-light: #ee6c6c;
-      --color: #EC6565;
+      --color-lightest: #cdffd0;
+      --color-light: #6cee7d;
+      --color: #e77240;
       --color-dark: #ca4e4e;
-      --font: "Open Sans", Helvetica, sans-serif;
+      --font: "pacifico", cursive;
+      font-weight: 1;
   }
 
   /* -------------------------------------------------------------------
@@ -110,7 +112,7 @@
 
   .center .name {
       font-size: 25px;
-      font-weight: 400;
+      font-weight: 300;
       margin-top: 20px;
       color: var(--color-dark);
       text-align: center;
@@ -207,7 +209,7 @@
 
   .carousel .change_outer .element {
       display: block;
-      font-weight: 700;
+      font-weight: 600;
       text-shadow: 1px 1px 2px var(--color);
   }
 
@@ -329,7 +331,7 @@
 
   .profile .name {
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 500;
       margin-top: 20px;
   }
 
@@ -351,7 +353,7 @@
       border: 1px solid var(--color-dark);
       border-radius: 15px;
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 500;
       box-sizing: border-box;
       transition: all 0.3s ease-in-out;
       color: var(--color-dark);
@@ -395,7 +397,7 @@
 
   .stats .value {
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 500;
   }
 
   .stats .parameter {
